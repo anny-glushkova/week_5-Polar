@@ -1,0 +1,279 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1600px;
+    background-color: #F2CEDA;
+}
+.container {
+    margin-left: 245px;
+    margin-right: 230px;
+    
+}
+.menu {
+    background-color: #F2CEDA;
+    
+}
+.menu .container {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    
+
+}
+.logo {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 245px;
+    top: 10px;
+
+}
+::selection {
+    background-color: #ed4242;
+}
+
+.nav li {
+    font-family: "Roboto", sans-serif;
+    
+    color: #150101;
+    opacity: 0.6;
+}
+.nav li a {
+    margin: 0 40px 0 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    color: #150101;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
+    opacity: 1;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+header {
+    background-color: #F2CEDA;
+}
+.button { 
+    padding: 5px 30px;
+    background-color:#d10649; 
+    color: #FAFAFA;
+
+    min-width: 165px;
+    height: 49px;
+    border-radius: 5px; 
+
+    font-family: 'Hind Madurai', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+
+    transition: background-color 0.5s,  padding 0.7s;   
+}
+.button:hover {
+    padding: 10px 60px;
+    background-color: rgb(252, 102, 137);
+}
+.button:active {
+    background-color: rgb(58, 159, 172);
+
+}
+.main .container .container_text {
+    margin-top: 196px;
+
+}
+.container_text .text {
+    margin-bottom: 6px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+
+}
+
+.container_text .button {
+    margin-bottom: 213px;
+}
+h1 {
+    margin-bottom: 35px;
+
+    font-family: 'Festive', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57.33px;
+    line-height: 120.5%;
+
+    color: #0F0101;
+
+    opacity: 0.9;
+
+}
+h1 .name_new {
+    color :#D23166;
+}
+
+.main .container {
+    display: flex;
+    position: relative;
+
+}
+.milk {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+
+    transform: rotate(4.79deg)
+}
+
+.advantages .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discription {
+    margin-bottom: 50px;
+    width: 523px;
+    height: 78px;   
+
+    font-family: 'Hind Madurai', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+
+    opacity: 0.6;
+}
+
+.advantages {
+background: #E5E5E5;
+height: 400px;
+
+}
+.shipping:hover,
+.text:hover {
+text-decoration: underline;
+}
+.text {
+font-family: 'Hind Madurai', sans-serif;
+font-style: normal;
+color: black;
+}
+
+h3 {
+font-family: 'Hind Madurai', sans-serif;
+font-style: normal;
+color: black;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+
+}
+.text .last_chanse {
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+}
+.white_block {
+    margin-top: 100px;
+    width: 250px;
+    height: 200px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    text-align: center;
+}
+.small_picture {
+    margin-top: 35px;
+}
+h2 {
+margin-top: 140px;
+
+font-family: 'Hind Madurai', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 49px;
+
+color: #150101;
+
+}
+.brown_sugar .container {
+    display: flex;
+
+}
+.our_product {
+    background-color: white;
+
+}
+h2 {
+    text-align: center;
+}
+.our_product .container h2 {
+    padding-top: 137px;
+    margin: 64px 0;
+
+}
+.prise {
+margin-top: 28px;
+margin-bottom: 16px;
+
+font-family: 'Hind Madurai', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+
+}
+.product_block h3 {
+    margin-top: 110px;
+    margin-bottom: 11px;
+
+}
+.section_product {
+    display: flex;
+    justify-content: space-between;
+}
+#last_product_block  {
+padding-bottom: 70px;
+}
+.question {
+    text-align: center;
+}
+.input {
+    margin-bottom: 129px;
+    width: 400px;
+    height: 49px;
+
+
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
